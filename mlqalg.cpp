@@ -99,7 +99,7 @@ public:
 
             // Si el proceso comienza por primera vez, establecemos el tiempo de respuesta
             if (p.responseTime == -1) {
-                p.responseTime = currentTime - p.arrivalTime;
+                p.responseTime = currentTime;
             }
 
             // Ejecutar el proceso por 'quantum' o el tiempo restante, lo que sea menor
@@ -140,7 +140,7 @@ public:
 
             // Si el proceso comienza por primera vez, establecemos el tiempo de respuesta
             if (p.responseTime == -1) {
-                p.responseTime = currentTime - p.arrivalTime;
+                p.responseTime = currentTime;
             }
 
             p.waitTime = currentTime - p.arrivalTime;
