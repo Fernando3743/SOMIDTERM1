@@ -1,0 +1,23 @@
+# Ignore compiled files
+*.out
+*.o
+*.obj
+*.exe
+*.class
+mlqalgorithm
+
+# Ignore text output files
+output_*.txt
+
+# Ignore backup or temporary files
+*.bak
+*.tmp
+*.swp
+*.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore any hidden directories like build or temp
+/build/
